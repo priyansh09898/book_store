@@ -1,0 +1,280 @@
+body{
+  margin: 0%;
+  background-color: #8000094a;
+  
+}
+
+.container{
+  width:100%;
+  max-width:1200px;
+  margin:auto;
+
+}
+
+
+/* =========================
+   NAVBAR
+========================= */
+
+a{
+  color: indigo;
+}
+/* General Styling for Navbar */
+.navbar {
+  background-color: #80000965;
+  border-bottom: 2px solid #800008; /* Orange border */
+  padding: 20px 0;
+}
+
+.nav-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  /* font-size: White;  */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Orange color for logo */
+  text-transform: uppercase;
+}
+
+#nav-toggle {
+  display: none;
+}
+
+.nav-toggle-label {
+  display: none;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin-left: auto; /* Ensures the navigation links align to the right */
+}
+
+.nav-links li {
+  margin-right: 20px;
+} 
+
+.nav-links li a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 500;
+  padding: 10px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  border-radius: 5px;
+}
+
+.nav-links li a:hover {
+  color: #ffffff;
+  background-color: #80000965;
+  border-radius: 5px;
+}
+
+
+/* =========================
+   HERO SECTION
+========================= */
+.hero{
+  display:flex;
+  /* align-items:center; */
+  justify-content:space-between;
+  padding:70px 10%;
+  background:linear-gradient(to right,#8000094A);
+  flex-wrap:wrap;
+}
+
+.hero-text{
+  max-width:500px;
+}
+
+.hero-text h2{
+  font-size:40px;
+  color:var(--primary);
+  margin-bottom:15px;
+}
+
+.hero-text p{
+  color:darkblack;
+  margin-bottom:20px;
+}
+
+.hero-books img{
+  width:320px;
+  max-width:100%;
+}
+
+/* button */
+.btn{
+  display:inline-block;
+  background:rgba(255, 255, 255, 0.191);
+  color:black;
+  /* box-color:black; */
+  padding:12px 25px;
+  border-radius:6px;
+  text-decoration:none;
+  font-weight:bold;
+  transition:.3s;
+  border: 3px;
+  cursor:pointer;
+  
+}
+
+.btn:hover{
+  background:#80000937;
+  transform:translateY(-2px);
+}
+
+/* =========================
+   CATEGORIES
+========================= */
+
+.promo-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px 0px 70px;
+  background-color:#80000921;
+  height: 100vh; /* Full viewport height */
+}
+
+/* Text Section */
+.promo-text {
+  max-width: 600px;
+}
+
+.promo-text h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.promo-text h1 {
+  font-size: 48px;
+  color: #ff0000; /* Red color for the book title */
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.promo-text p {
+  font-size: 20px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.book-info {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+
+
+/* Image Section */
+.promo-image img {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  border-radius: 10px;
+}
+
+
+
+/* =========================
+   EBOOK SECTION
+========================= */
+.ebook{
+  background:#80000937;
+  padding:60px 20px;
+  display:flex;
+  justify-content:center;
+}
+
+.ebook-text{
+  max-width:600px;
+  text-align:center;
+}
+
+.ebook-text h2{
+  color:var(--primary);
+  margin-bottom:15px;
+}
+
+.ebook-text p{
+  margin-bottom:20px;
+}
+
+.ebook form{
+  display:flex;
+  gap:10px;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+
+.ebook input{
+  padding:12px;
+  border:1px solid #ccc;
+  border-radius:6px;
+  width:250px;
+}
+
+/* =========================
+   FOOTER
+========================= */
+.footer{
+  background:rgba(128, 0, 0, 0.454);
+  color:white;
+  padding:50px 20px;
+}
+
+.footer-container{
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  gap:30px;
+}
+
+
+
+.footer-column h3{
+  /* color: #800008; */
+  margin-bottom:10px;
+}
+
+
+
+.footer-column ul{
+  list-style:none;
+}
+
+.footer-column ul li{
+  margin-bottom:8px;
+}
+
+.footer-column a{
+  color:#ccc;
+  text-decoration:none;
+  transition:.3s;
+}
+
+.footer-column a:hover{
+  color:#c62828;;
+}
+
+.footer-social a{
+  margin-right:10px;
+  cursor:pointer;
+}
+
+.footer-bottom{
+  text-align:center;
+  margin-top:30px;
+  font-size:14px;
+  color:#aaa;
+}
+
